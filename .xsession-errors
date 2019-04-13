@@ -1,0 +1,31 @@
+Xsession: X session started for ubuntu at Tue Apr  2 08:05:41 UTC 2019
+localuser:ubuntu being added to access control list
+openConnection: connect: No such file or directory
+cannot connect to brltty at :0
+/usr/bin/x-session-manager: X server already running on display :10.0
+xfce4-session-Message: SSH authentication agent is already running
+gpg-agent[2401]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[2402]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:2394): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:2394): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-11-178:10, Does it exist? Permissions issue?
+process 2414: arguments to dbus_message_new_method_call() were incorrect, assertion "path != NULL" failed in file ../../dbus/dbus-message.c line 1340.
+This is normally a bug in some application using the D-Bus library.
+
+(xfsettingsd:2415): xfsettingsd-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:2404): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+(nm-applet:2413): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(xfwm4:2404): xfwm4-WARNING **: output size (1412x446) and logical screen size (1364x635) do not match
+
+(xfsettingsd:2415): GLib-GObject-WARNING **: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+** Message: Got disconnected from the session message bus; retrying to reconnect every 10 seconds
+gpg-agent[2402]: SIGHUP received - re-reading configuration and flushing cache
+gpg-agent[2402]: option file '/home/ubuntu/.gnupg/gpg-agent.conf': No such file or directory
+gpg-agent[2402]: SIGTERM received - shutting down ...
+gpg-agent[2402]: gpg-agent (GnuPG) 2.1.11 stopped
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
