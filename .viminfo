@@ -22,34 +22,54 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""1	CHAR	0
+	
+	
+"-	CHAR	0
 	s
 
 # File marks:
-'0  1  17  /home/repo1/test2.txt
-'1  2  0  /home/repo1/test2.txt
-'2  1  0  ~/test2.txt
-'3  2  0  ~/test.txt
+'0  4  14  ~/test2.txt
+'1  1  17  /home/repo1/test2.txt
+'2  2  0  /home/repo1/test2.txt
+'3  1  0  ~/test2.txt
+'4  2  0  ~/test.txt
 
 # Jumplist (newest first):
+-'  4  14  ~/test2.txt
+-'  1  0  ~/test2.txt
 -'  1  17  /home/repo1/test2.txt
 -'  2  0  /home/repo1/test2.txt
--'  1  0  ~/test2.txt
 -'  2  0  ~/test.txt
 -'  1  0  ~/test.txt
 -'  2  0  ~/test.txt
 -'  1  0  ~/test.txt
--'  1  0  ~/test2.txt
 -'  2  0  ~/test.txt
 -'  1  0  ~/test.txt
 -'  2  0  ~/test.txt
 -'  1  0  ~/test.txt
--'  1  0  ~/test2.txt
 -'  2  0  ~/test.txt
 -'  1  0  ~/test.txt
 -'  2  0  ~/test.txt
 -'  1  0  ~/test.txt
--'  1  0  ~/test2.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  1  17  /home/repo1/test2.txt
+-'  2  0  /home/repo1/test2.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
 -'  2  0  ~/test.txt
 -'  1  0  ~/test.txt
 -'  2  0  ~/test.txt
@@ -57,15 +77,18 @@
 
 # History of marks within files (newest to oldest):
 
+> ~/test2.txt
+	"	4	14
+	^	4	15
+	.	4	14
+	+	4	14
+
 > /home/repo1/test2.txt
 	"	1	17
 	^	1	18
 	.	1	17
 	+	2	0
 	+	1	17
-
-> ~/test2.txt
-	"	1	0
 
 > ~/test.txt
 	"	2	0
