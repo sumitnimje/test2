@@ -9,6 +9,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
+:q!
+:q
+:wq!
 
 # Search String History (newest to oldest):
 
@@ -23,13 +26,46 @@
 	s
 
 # File marks:
-'0  2  0  ~/test.txt
+'0  1  17  /home/repo1/test2.txt
+'1  2  0  /home/repo1/test2.txt
+'2  1  0  ~/test2.txt
+'3  2  0  ~/test.txt
 
 # Jumplist (newest first):
+-'  1  17  /home/repo1/test2.txt
+-'  2  0  /home/repo1/test2.txt
+-'  1  0  ~/test2.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  1  0  ~/test2.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  1  0  ~/test2.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
+-'  1  0  ~/test2.txt
+-'  2  0  ~/test.txt
+-'  1  0  ~/test.txt
 -'  2  0  ~/test.txt
 -'  1  0  ~/test.txt
 
 # History of marks within files (newest to oldest):
+
+> /home/repo1/test2.txt
+	"	1	17
+	^	1	18
+	.	1	17
+	+	2	0
+	+	1	17
+
+> ~/test2.txt
+	"	1	0
 
 > ~/test.txt
 	"	2	0
